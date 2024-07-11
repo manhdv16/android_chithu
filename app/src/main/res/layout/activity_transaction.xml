@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Chi tiết"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Mục nhập số tiền -->
+    <EditText
+        android:id="@+id/edCost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        android:padding="16dp" />
+    <Spinner
+        android:id="@+id/spinnerUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25dp" />
+    <!-- Mục nhập danh mục -->
+    <EditText
+        android:id="@+id/edType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_margin="8dp"
+        android:inputType="none"
+        android:padding="16dp" />
+
+    <!-- Mục nhập thời gian -->
+    <EditText
+        android:id="@+id/edTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textColor="@color/black"
+        android:focusable="false"
+        android:inputType="none"
+        android:padding="16dp" />
+    <!-- Mục nhập ghi chú -->
+    <EditText
+        android:id="@+id/edNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:inputType="textMultiLine"
+        android:textColor="@color/black"
+        android:maxLines="3"
+        android:padding="16dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        >
+        <Button
+            android:id="@+id/btEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sửa"
+            android:textAllCaps="false"
+            android:background="@drawable/button"
+            android:backgroundTint="#3498db"
+            android:textColor="@color/white"
+            android:minWidth="100dp"
+            android:textSize="15dp"
+            android:layout_marginRight="10dp"
+            />
+        <Button
+            android:id="@+id/btUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cập nhật"
+            android:textAllCaps="false"
+            android:background="@drawable/button"
+            android:backgroundTint="#3498db"
+            android:textColor="@color/white"
+            android:minWidth="100dp"
+            android:textSize="15dp"
+            android:layout_marginRight="10dp"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+</LinearLayout>

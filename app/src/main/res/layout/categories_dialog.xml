@@ -1,0 +1,36 @@
+<!-- expense_categories_dialog.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- TabLayout -->
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tabLayoutModal"
+        app:tabSelectedTextColor="@color/white"
+        android:background="@color/blue"
+        />
+
+    <!-- ViewPager -->
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:id="@+id/viewPagerModal"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <!-- Nút Setting -->
+    <Button
+        android:id="@+id/btAddModal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm danh mục"
+        android:background="@drawable/button"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false" />
+
+</LinearLayout>

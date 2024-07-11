@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Trang chủ"
+        android:id="@+id/mHome"
+        android:icon="@drawable/ic_home"
+        />
+    <item
+        android:title="Biểu đồ"
+        android:id="@+id/mChart"
+        android:icon="@drawable/twotone_pie_chart_24"
+        />
+    <item
+        android:id="@+id/mFab"
+        android:title=""
+        android:enabled="false"/>
+    <item
+        android:title="Tìm kiếm"
+        android:id="@+id/mStatistic"
+        android:icon="@drawable/ic_search"
+        />
+    <item
+        android:title="Tôi"
+        android:id="@+id/mSetting"
+        android:icon="@drawable/baseline_person_pin_24"
+        />
+</menu>

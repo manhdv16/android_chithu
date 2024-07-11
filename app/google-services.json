@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "645431359915",
+    "project_id": "expensemanagement-8f058",
+    "storage_bucket": "expensemanagement-8f058.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645431359915:android:d02d642fd87f66d88c3aee",
+        "android_client_info": {
+          "package_name": "com.example.quanlichitieu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcJVR7OFKamlN2b8Cuew0dQ1isPe7Bpu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

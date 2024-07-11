@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="10dp" /> <!-- Đặt bán kính cong cho góc, ở đây là 20dp -->
+    <solid android:color="@color/bluewhite" /> <!-- Màu nền cho LinearLayout -->
+</shape>

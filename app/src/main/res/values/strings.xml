@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Quản lí chi tiêu</string>
+    <string-array name="category">
+        <item>Tất cả</item>
+        <item>Chi phí</item>
+        <item>Thu nhập</item>
+    </string-array>
+    <string-array name="frequency">
+        <item>Một lần</item>
+        <item>Hàng ngày</item>
+        <item>Hàng tuần</item>
+        <item>Hàng tháng</item>
+    </string-array>
+</resources>
